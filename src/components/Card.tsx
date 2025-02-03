@@ -1,4 +1,3 @@
-import { MouseEventHandler } from "react";
 import useData from "../hooks/useData";
 
 interface searchResult {

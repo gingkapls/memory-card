@@ -1,6 +1,6 @@
-import Card, { pokemonCard, searchResult } from "./Card";
+import Card, { searchResult } from "./Card";
 import useData from "../hooks/useData";
-import React, { Dispatch, SetStateAction, useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import shuffle from "../lib/shuffle";
 
 const URL = "https://pokeapi.co/api/v2/";
