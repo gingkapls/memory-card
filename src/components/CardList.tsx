@@ -33,8 +33,6 @@ function CardList({
   if (!response) return <>Loading</>;
 
   const cards: searchResult[] = shuffle<searchResult>(response.results);
-  console.log(cards);
-
   function resetGame() {
     const newHighScore = Math.max(score, highScore);
     setHighScore(newHighScore);

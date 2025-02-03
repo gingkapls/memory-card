@@ -5,8 +5,6 @@ import CardList from "./components/CardList";
 function App() {
   const [score, setScore] = useState(0);
   const [highScore, setHighScore] = useState(0);
-  console.log("score: ", score);
-  console.log("high score: ", highScore);
   return (
     <>
       <h1>Pokemon Memory game!</h1>

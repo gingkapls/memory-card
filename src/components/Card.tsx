@@ -19,7 +19,7 @@ interface CardProps extends searchResult {
 
 function Card({ name, url, onClick }: CardProps) {
   const cardDetails = useData<pokemonCard>(url);
-  if (!cardDetails) return <>Loading</>;
+  if (!cardDetails) return <>Loading Pokemon</>;
 
   const image = cardDetails.sprites.back_default;
   return (
